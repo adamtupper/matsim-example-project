@@ -39,6 +39,7 @@ suitable sdk manually, which is available [here](https://openjdk.java.net/)
 You can build an executable jar-file by executing the following command:
 
 ```sh
+mvn wrapper:wrapper -Dmaven=3.9.6
 ./mvnw clean package
 ```
 
